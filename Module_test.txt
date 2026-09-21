@@ -1,0 +1,79 @@
+Name-Harshvardhan Pratap Londhe
+FRN- 18jo726/028
+Set-B
+
+Q.1
+#include<stdio.h>
+void main()
+{
+	char str[100];
+	int i,count=0;
+	printf("Enter a sentence\n");
+	gets(str);
+	
+	for(int i=0;str[i]!='\0';i++)
+	{
+		if(str[i]==' ')
+		{
+			count++;
+		}
+	}
+	count=count+1;
+	
+	printf("Number of words=%d",count);
+}
+
+Q.2
+#include<stdio.h>
+void main()
+{
+	int i,n;
+	int num=0,sum=0;
+	
+	printf("Enter n: ");
+	scanf("%d",&n);
+	
+	for(i=1;i<=n;i++)
+	{
+		num=num * 10 +1;
+		printf("%d",num);
+		
+		if(i<n)
+		 printf("+");
+	}
+}
+
+Q.3
+#include<stdio.h>
+struct Song
+{
+	int id;
+	char title[50];
+	char artist[50];
+	float duration;
+};
+void main()
+{
+	int choice;
+	do{
+	printf("\n-----Music library-----");
+	printf("\n1.Add Song");
+	printf("\n2.Display");
+	printf("\n3.Exit");
+	
+	printf("\n Enter your choice: ");
+	scanf("%d",&choice);
+	
+	switch(choice)
+	{
+		case 1:
+		
+		case 2:
+		
+		case 3:
+		
+		default:	
+	}
+    }while(choice != 3)
+    return 0;
+}
