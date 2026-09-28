@@ -9,5 +9,4 @@ void main()
 	{
 		printf("eligible");
 	}
-
 }
