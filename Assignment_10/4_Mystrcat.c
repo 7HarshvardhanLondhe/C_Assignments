@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void mystrcat(char* str1,char* str2,int n)
 {
 	int i=0;
@@ -12,7 +13,7 @@ void mystrcat(char* str1,char* str2,int n)
 }
 void main()
 {
-	char str1[]="harsh";
+	char str1[]="harshv";
 	char str2[]="vardhan";
 	int n=strlen(str1);
 	mystrcat(str1,str2,n);
